@@ -1,0 +1,7 @@
+
+*.exe
+*.vsidx
+SuperSharpShares/.vs/SuperSharpShares/v17/.suo
+*.pdb
+*.cache
+*.txt
