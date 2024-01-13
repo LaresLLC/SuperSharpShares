@@ -7,12 +7,12 @@ Brought to you by [Neil Lines](https://twitter.com/myexploit2600) at [Lares Labs
 SuperSharpShares is a tool designed to automate enumerating domain shares, allowing for quick verification of accessible shares by your associated domain account.
 
 ## What is it?
-SuperSharpShares came about somewhat unexpectedly - it was never intended for a public release and was not initially developed with that goal in mind. Originally, it served as a solution within a more intricate tool we created that remains unreleased (for now, never say never) to quickly enumerate available shares and perform other analyses. On internal pen tests and insider threats, we've had a lot of success with [Snaffler](https://github.com/SnaffCon/Snaffler) (with tuning for insider threats) but wanted something .net based that ran quickly to enumerate access control on shares as a standard user from a domain connected machine thus SuperSharpShares was born.
+SuperSharpShares came about somewhat unexpectedly - it was never intended for a public release and was not initially developed with that goal in mind. Originally, it served as a solution within a more intricate tool we created that remains unreleased (for now, never say never) to quickly enumerate available shares and perform other analyses. On internal pen tests and insider threats, we've had a lot of success with [Snaffler](https://github.com/SnaffCon/Snaffler) (with tuning for insider threats) but wanted something .net based that ran quickly and easily to enumerate access control on shares as a standard user from a domain connected machine thus SuperSharpShares was born.
 
 
 
 ## Usage
-SuperSharpShares takes no arguments and simply runs from a domain-connected machine or a runas session.
+SuperSharpShares takes no arguments and runs from a domain-connected machine or a runas session. Execute in CMD or PS, or it will simply close after execution. If you wish to save the results, include a > results.txt, which will then echo the console to the txt file.
 ```
 C:\Users\User\Desktop>SuperSharpShares.exe
 Number of threads: 2
