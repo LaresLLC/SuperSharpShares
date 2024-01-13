@@ -7,25 +7,8 @@ SuperSharpShares was designed to automate the enumeration of domain shares. It h
 
 ## Usage
 SuperSharpShares takes no arguments and simply runs from a domain-connectedmachine  or runas session.
+![image](https://github.com/LaresLLC/SuperSharpShares/assets/5783068/a153d2d1-263e-4e9c-bcfc-626ab3b8284c)
 
-```
-C:\Users\User\Desktop>SuperSharpShares.exe
-Number of threads: 2
-
-\\DC1\ADMIN$ - Read access
-\\DC1\C$ - Read access
-\\DC1\IT - Read access
-\\DC1\NETLOGON - Read access
-\\DC1\SYSVOL - Read access
-\\DC1\Users - Read access
-\\WS1\ADMIN$ - Read and Write access
-\\WS1\Users - Read and Write access
-\\WS1\C$ - Read and Write access
-\\DC2\ADMIN$ - Read and Write access
-\\DC2\NETLOGON - Read and Write access
-\\DC2\SYSVOL - Read access
-\\DC2\C$ - Read and Write access
-```
 
 ## Blog Post
 To read about how it works under the hood, how to modify it and what it does please check out the blog post!
