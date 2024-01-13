@@ -1,4 +1,7 @@
-﻿using System;
+﻿// SuperSharpShares v0.1
+// Lares LLC 2024
+// Neil Lines (@myexploit2600)
+using System;
 using System.Collections.Generic;
 using System.DirectoryServices;
 using System.IO;
