@@ -1,5 +1,7 @@
 # SuperSharpShares 
 ## v0.1 Public Release
+![Logo_SharpShares](https://github.com/LaresLLC/SuperSharpShares/assets/5783068/eed4e6dc-b063-4899-99ff-6f47bc7d4623)
+
 Brought to you by [Neil Lines](https://twitter.com/myexploit2600) at [Lares Labs](https://labs.lares.com/).
 
 SuperSharpShares is a tool designed to automate enumerating domain shares, allowing for quick verification of accessible shares by your associated domain account.
