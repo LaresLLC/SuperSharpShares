@@ -1,7 +1,4 @@
-﻿// SuperSharpShares v0.1
-// Lares LLC 2024
-// Neil Lines (@myexploit2600)
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.DirectoryServices;
 using System.IO;
@@ -201,7 +198,7 @@ public class EnumerateDomainShares
         PrintResults(allResults);
     }
 
-    public static void Main()
+    public static void Main(string[] args)
     {
         using (var cts = new CancellationTokenSource())
         {
